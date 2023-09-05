@@ -1,5 +1,4 @@
 import "./banner.css"
-import telegramImg from "./../../images/icons/Vector.png"
 const Banner = () => {
     return (<section>
         <div className="container">
@@ -16,10 +15,11 @@ const Banner = () => {
                     products that your clients will love and let 
                     your business thrive 
                 </div>
-                <div className="banner_button">
+                <div className="banner_button" disabled>
+                    <div className="banner_button_text">
                     <a href="#!">Get in touch
                     </a>
-                    <a href="#!"> <img src={telegramImg} alt="tgImg"></img> </a>
+                    </div>
                     
                    
                 </div>
