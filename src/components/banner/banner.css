@@ -40,5 +40,25 @@
     color: #696969;
 }
 
+.banner_button {
+    display:flex;
+    justify-content: space-between;
+    width: 188px;
+    height: 50px;
+    margin-top:60px;
+    margin-bottom: 166px;
+    padding: 13px 24px 13px 24px;
+    background: #7E3AF2;
+	border-radius: 50px;
+    column-gap: 12px;
 
-    
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #fff;
+}
+
+.banner_button a {
+    display: inline-flex;
+    color: #fff;
+}
