@@ -15,7 +15,7 @@ const Banner = () => {
                     products that your clients will love and let 
                     your business thrive 
                 </div>
-                <div className="banner_button" disabled>
+                <div className="banner_button" >
                     <div className="banner_button_text">
                     <a href="#!">Get in touch
                     </a>

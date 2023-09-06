@@ -1,58 +1,68 @@
-.banner_content {
-    display: inline-flex;
-    height: 768px;
-    width: 1280px;
+.profile_content {
+    padding-top: 100px;
     padding-left: 85px;
-    background-image: url('./../../images/img/banner_photo.png');
-    background-position: right;
+}
+
+.profile_title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.5;
+
+    color: #27272A;
+
+    text-align: left;
+
+    margin-bottom: 85px;
+
+}
+
+.profile_media{
+    justify-content: space-between;
+    display: inline-flex;
+    column-gap: 182px;
+    padding-top: 24px;
+    padding-right: 88px;
+}
+.profile_avatar {
+    width: 412px;
+    height: 412px;
+    text-align: left;
+    background-image: url('./../../images/img/elipsebg.png');
+    background-position: left;
     background-repeat: no-repeat;
 }
 
-.banner_main_text {
-    white-space: nowrap;
-    margin-right: 786px;
 
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 1.5;
-    text-align: center;
-    margin-top: 162px;
-    margin-bottom: 4px;
-
-}
-
-.banner_text_description {
+.profile_info {
+    margin-top: 116px;
+    width: 537px;
+    height: 228px;
     font-weight: 400;
     font-size: 20px;
     line-height: 1.5;
-    text-align: left;
-    color: #696969;
-    margin-right: 786px;
-}
 
-.banner_text_info {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1.5;
     text-align: left;
-    margin-right: 750px;
-    margin-top: 92px;
-    color: #696969;
+    margin-bottom: 64px;
     position: relative;
+
 }
-.banner_text_info::before {
+
+.profile_info span {
+    font-weight: 600;
+}
+
+.profile_info::before {
     content: "";
     display: block;
     position: absolute;
-    top: -24px;
     left: 0;
+    top: -24px;
     width: 25px;
     height: 3px;
     background-color: #7E3AF2;
-
 }
 
-.banner_button {
+.profile_button {
     display:flex;
     justify-content: space-between;
     width: 188px;
@@ -74,27 +84,27 @@
     border: 3px solid #7E3AF2;
 }
 
-.banner_button a {
+.profile_button a {
     display: inline-flex;
     color: #fff;
 }
 
-.banner_button:hover {
+.profile_button:hover {
     background-color: #6C2BD9; 
 }
 
-.banner_button:active {
+.profile_button:active {
     background-color: #7E3AF2; 
     border-color: #CABFFD; 
 }
 
-.banner_button[disabled] {
+.profile_button[disabled] {
     background-color: #E5E7EB;  
     color: #696969;
     border-color: #E5E7EB; 
     background-image: url('./../../images/icons/inactive.svg');
 }
 
-.banner_button[disabled] a {
+.profile_button[disabled] a {
     color: #696969;
 }
