@@ -1,0 +1,92 @@
+.education_content {
+    padding: 80px 85px 100px 85px;
+    justify-content: space-between;
+    display: flex;
+    column-gap: 216px;
+}
+
+.education_interests_title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+
+    color: #27272A;
+}
+
+.education_experience_title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+
+    color: #27272A;
+}
+
+
+.education_interests_music{
+    display: inline-flex;
+    justify-content: space-between;
+    column-gap: 16px;
+}
+
+.education_interests_music_text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: left
+}
+
+.education_interests_music_text span {
+    font-weight: 600;
+}
+
+.education_interests_art{
+    margin-top: 44px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 16px;
+  
+}
+
+.education_interests_art_text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: left
+}
+
+.education_interests_art_text span {
+    font-weight: 600;
+}
+
+.education_interests_photo{
+    margin-top: 44px;
+    display: inline-flex;
+    justify-content: space-between;
+    column-gap: 16px;
+}
+
+.education_interests_photo_text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: left
+}
+
+.education_interests_photo_text span {
+    font-weight: 600;
+}
+
+.education_interests_music_image{
+    display: flex;
+    margin: auto;
+}
+
+.education_interests_art_image{
+    display: flex;
+    margin: auto;
+}
+
+.education_interests_photo_image{
+    display: flex;
+    margin: auto;
+}

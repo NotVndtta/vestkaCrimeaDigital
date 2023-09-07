@@ -1,5 +1,6 @@
 import './App.css';
 import Banner from './components/banner/Banner';
+import Education from './components/education/Education';
 import Header from './components/header/Header';
 import Profile from './components/profile/Profile';
 
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Banner />
       <Profile />
+      <Education />
     </div>
   );
 }
