@@ -45,13 +45,16 @@ const Education = () => {
                     </div>
                     
                     <div className='education_experience_ozon'>
-
+                        2008 - Present <span> Middle Frontend developer </span> <br/>
+                        Ozon
                     </div>
                     <div className='education_experience_stepik'>
-
+                        2006 - 2007 <span> Frontend development courses </span><br />
+                        Stepik
                     </div>
                     <div className='education_experience_spsu'>
-
+                        2000 - 2005 <span>Frontend developer </span> <br />
+                        Saint Petersburg State University
                     </div>
             </div>
         </div>

@@ -90,3 +90,31 @@
     display: flex;
     margin: auto;
 }
+
+.education_experience_ozon{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+
+    color: #27272A;
+}
+
+.education_experience_stepik{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+
+    color: #27272A;
+}
+
+.education_experience_spsu {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+
+    color: #27272A;
+}
+
+span {
+    font-weight: 600;
+}
