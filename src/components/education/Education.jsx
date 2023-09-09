@@ -13,25 +13,25 @@ const Education = () => {
                         </div>
                     <div className='education_interests_music'>
                         <div className='education_interests_music_image'>
-                        <img src={musicIcon} alt='Music'></img>
+                        <img src={musicIcon} alt='Music' width={"60px"} height={"60px"}></img>
                         </div>
                         <div className='education_interests_music_text'>
                             <span>Music</span> <br/>
-                            Indie rock | Reggae
-                        </div>
+                           <nobr> Indie rock | Reggae </nobr>
+                         </div>
                     </div>
                     <div className='education_interests_art'>
                         <div className='education_interests_art_image'>
-                            <img src={artIcon} alt='Art'></img>
+                            <img src={artIcon} alt='Art' width={"60px"} height={"60px"}></img>
                         </div>
                         <div className='education_interests_art_text'>
                             <span> Art </span> <br />
-                            Edvard Munch | Frida Kahlo
+                            <nobr>Edvard Munch | Frida Kahlo </nobr>
                         </div>
                     </div>
                     <div className='education_interests_photo'>
                         <div className='education_interests_photo_image'>
-                            <img src={photoIcon} alt='Photo1'></img>
+                            <img src={photoIcon} alt='Photo1' width={"60px"} height={"60px"}></img>
                         </div>
                         <div className='education_interests_photo_text'>
                             <span>Photography</span> <br/>
@@ -45,16 +45,31 @@ const Education = () => {
                     </div>
                     
                     <div className='education_experience_ozon'>
-                        2008 - Present <span> Middle Frontend developer </span> <br/>
+                    <div className="column">
+                        2008 - Present
+                    </div>
+                    <div className="column">
+                        <span> <nobr>Middle Frontend developer </nobr></span> <br/>
                         Ozon
                     </div>
+                    </div>
                     <div className='education_experience_stepik'>
-                        2006 - 2007 <span> Frontend development courses </span><br />
+                    <div className="column">
+                        2006 - 2007 
+                    </div>
+                    <div className="column">
+                        <span> <nobr> Frontend development courses </nobr></span><br />
                         Stepik
                     </div>
+                    </div>
                     <div className='education_experience_spsu'>
-                        2000 - 2005 <span>Frontend developer </span> <br />
-                        Saint Petersburg State University
+                    <div className="column">
+                        2000 - 2005 
+                    </div>
+                    <div className="column">
+                        <span> <nobr>Frontend developer </nobr></span> <br />
+                        <nobr>Saint Petersburg State University </nobr>
+                    </div>
                     </div>
             </div>
         </div>

@@ -2,13 +2,15 @@
     padding: 80px 85px 100px 85px;
     justify-content: space-between;
     display: flex;
-    column-gap: 216px;
+    column-gap: 217px;
 }
 
 .education_interests_title{
     font-weight: 700;
     font-size: 24px;
     line-height: 1.5;
+    
+    margin-bottom: 44px;
 
     color: #27272A;
 }
@@ -23,16 +25,20 @@
 
 
 .education_interests_music{
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
     column-gap: 16px;
+
+    margin-right: 83px;
+    
 }
 
 .education_interests_music_text {
     font-weight: 400;
     font-size: 20px;
     line-height: 1.5;
-    text-align: left
+    text-align: left;
+    
 }
 
 .education_interests_music_text span {
@@ -44,14 +50,14 @@
     display: flex;
     justify-content: space-between;
     column-gap: 16px;
-  
+    
 }
 
 .education_interests_art_text{
     font-weight: 400;
     font-size: 20px;
     line-height: 1.5;
-    text-align: left
+    text-align: left;
 }
 
 .education_interests_art_text span {
@@ -60,16 +66,19 @@
 
 .education_interests_photo{
     margin-top: 44px;
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
     column-gap: 16px;
+
+    margin-right: 141px;
+
 }
 
 .education_interests_photo_text{
     font-weight: 400;
     font-size: 20px;
     line-height: 1.5;
-    text-align: left
+    text-align: left;
 }
 
 .education_interests_photo_text span {
@@ -92,29 +101,54 @@
 }
 
 .education_experience_ozon{
+   
+
     font-weight: 400;
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 2;
+    text-align: left;
+
+    margin-top: 44px;
 
     color: #27272A;
+
+    border-bottom: 1px solid #E5E7EB;
 }
 
 .education_experience_stepik{
     font-weight: 400;
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 2;
+
+    margin-top: 24px;
+
+    text-align: left;
 
     color: #27272A;
+
+    border-bottom: 1px solid #E5E7EB;
 }
 
 .education_experience_spsu {
     font-weight: 400;
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 2;
+
+    text-align: left;
+
+    margin-top: 24px;
 
     color: #27272A;
+
+    border-bottom: 1px solid #E5E7EB;
 }
 
 span {
     font-weight: 600;
 }
+
+.column {
+    display: inline-block;
+    width: 38%;
+    vertical-align: top;
+  }
